@@ -15,3 +15,5 @@
 
 - Photoshop
 - Inkscape
+- Illustrator
+

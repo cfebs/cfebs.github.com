@@ -4,20 +4,21 @@
 
 - PHP
     - Proprietary framework from XLS
-    - Code Igniter
-    - Lithium
+    - CodeIgniter
+    - Slim
+    - Lithium <span class="minor"></span>
 
 - Ruby
     - Sinatra
     - Rails
     - jekyll
 
-- SQL
+- DB
     - Oracle
     - MySql
-    - Postgres, mongo
+    - Postgres, mongo <span class="minor"></span>
 
-- Python _Note: experience limited_
+- Python <span class="minor"></span>
     - django, pyramid
     - celery
     - pip, virtualenv

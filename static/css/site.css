@@ -14,6 +14,10 @@ strong {
     color: #f0f0f0;
 }
 
+em {
+    color: #aaa;
+}
+
 h1, h2 {
     letter-spacing: -2px;
 }
@@ -38,9 +42,11 @@ a {
 }
 
 a:hover {
-    color: #32d2a1;
+    color: #00c588;
     text-decoration: none;
 }
+
+
 
 hr.sep {
     border: solid #333;
@@ -48,4 +54,21 @@ hr.sep {
     clear: both;
     margin: 10px 0 30px;
     height: 0;
+}
+
+hr.greeny {
+    border: solid #00ffb0;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 10px 0 30px;
+    height: 0;
+}
+
+.minor {
+    padding: 0px 2px 1px 2px;
+    background: #333;
+    color: #777;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: bold;
 }
