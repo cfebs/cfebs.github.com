@@ -11,7 +11,6 @@
 - Ruby
     - Sinatra
     - Rails
-    - jekyll
 
 - DB
     - Oracle
