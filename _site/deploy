@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+jekyll
+cp -R _site/* ../cfebs.github.com
+rm "`basename $0`"
+rm .gitmodules
+rm .gitignore
+git add .; git commit -am  "`date +%F_%H-%M_%s`";

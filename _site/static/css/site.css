@@ -1,0 +1,44 @@
+body {
+    background-image: url('../images/noise.png');
+    color: #f0f0f0;
+    font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* color */
+h1, h2, h3, h4, h5, h6 {
+    color: #f2f2f2;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-weight: normal; }
+
+strong {
+    color: #f0f0f0;
+}
+
+.title {
+    margin-top: 40px;
+}
+
+.topic-content {
+}
+
+.topic h3 {
+    color: #555;
+}
+
+a {
+    color: #00ffb0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #32d2a1;
+    text-decoration: none;
+}
+
+hr.sep {
+    border: solid #333;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 10px 0 30px;
+    height: 0;
+}
