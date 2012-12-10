@@ -1,3 +1,3 @@
 $(function() {
-    $('.minor').html('minor');
+    $('.minor').html('min');
 });
