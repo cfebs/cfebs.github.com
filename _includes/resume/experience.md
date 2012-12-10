@@ -20,6 +20,6 @@
     - Maintained their main webpage with HTML, CSS and Cold Fusion
     - Worked with a small team.
 
-- **Graphic Designer**, Datamasons Software, Worked Remotely, 2009
+- **Graphic Designer**, Datamasons Software, Worked Remotely, _2009_
     - Designed advertisements and banners for a trade show.
     - Provided feedback on layout and images on their new website.
