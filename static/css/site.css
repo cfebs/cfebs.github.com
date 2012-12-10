@@ -7,7 +7,7 @@ body {
 /* color */
 h1, h2, h3, h4, h5, h6 {
     color: #f2f2f2;
-    font-family: "Georgia", "Times New Roman", serif;
+    font: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal; }
 
 strong {
