@@ -8,6 +8,7 @@
     - Heroku
 
 - Vim
+    - vimscript <span class="minor"></span>
 
 - Misc Tools
     - Virtualbox

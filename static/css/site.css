@@ -1,6 +1,6 @@
 body {
     background-image: url('../images/noise.png');
-    color: #f0f0f0;
+    color: #dedede;
     font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -36,7 +36,7 @@ h3, h4, h5, h6 {
     color: #555;
 }
 
-a {
+a, a:visited {
     color: #00ffb0;
     text-decoration: none;
 }
