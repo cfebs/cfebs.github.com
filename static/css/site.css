@@ -14,6 +14,13 @@ strong {
     color: #f0f0f0;
 }
 
+h1, h2 {
+    letter-spacing: -2px;
+}
+h3, h4, h5, h6 {
+    letter-spacing: -1px;
+}
+
 .title {
     margin-top: 40px;
 }
