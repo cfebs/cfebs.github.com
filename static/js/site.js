@@ -1,4 +1,6 @@
 $(function() {
+    $('.current-year').html(new Date().getFullYear());
+
     $('.minor').html('min');
 
     var techMap = {
