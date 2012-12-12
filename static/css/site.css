@@ -84,3 +84,20 @@ hr.greeny {
     color: #777;
     background: #333;
 }
+
+.links a, .links a:visited {
+    color: white;
+}
+
+.links i {
+    font-size: 20px;
+}
+
+.links {
+    float: right;
+}
+
+.row div p {
+    font-size: 12px;
+    height: 45px;
+}
