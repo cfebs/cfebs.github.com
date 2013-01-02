@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
+set -e
 
 target=../cfebs.github.com
 here=`pwd`
+
+if [ ! -d $target ]
+then
+    echo "Generation target: $target does not exist"
+    exit 0
+fi
 
 # generate site to the local _site dir
 jekyll
@@ -11,9 +18,10 @@ cp -R _site/* $target
 cd $target
 
 # cleanup
-rm `basename $0`
-rm .gitmodules
-rm .gitignore
+self=`basename $0`
+test -f $self && rm $self
+test -f .gitignore && rm .gitignore
+
 # push out
 git add .; git commit -am  "Update `basename $target`: `date +%F_%H-%M_%s`"; git push origin master;
 
