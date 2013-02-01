@@ -28,7 +28,7 @@ namespace :cfebs do
     sh 'git commit -am  "`date +%F_%H-%M_%s`"'
   end
 
-  desc "Deploys by pushing the compile directory to chunk"
+  desc "Deploys by pushing the compile directory to prod"
   task:deploy => [:validate_compile_dir] do
     Dir.chdir(@compile_dir)
     sh 'git push origin master'
