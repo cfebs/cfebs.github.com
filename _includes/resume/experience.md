@@ -2,7 +2,7 @@
     - Maintain and build new features for our main E-Discovery application
     - Daily activities span many different areas from front end javascript to database patches
 
-- **Web Master**, Siena Software Engineering Team, Loudonville, NY, _Fall 2010 – present_
+- **Web Master**, Siena Software Engineering Team, Loudonville, NY, _Fall 2010 – Spring 2011_
     - Build and maintain team’s website:  [http://oraserv.cs.siena.edu/~perm_empire]()
 
 - **Ruby Development Intern**, MovethatBlock.com, Loudonville, NY, _Fall 2010 – Summer 2011_
