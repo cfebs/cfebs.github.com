@@ -4,7 +4,6 @@
 
 - Linux
     - Version Control: p4, git, svn
-    - Experimenting with distros: Debian, Ubuntu, Crunchbang, Arch
     - shell scripting
     - VPS Hosting
     - Heroku
@@ -16,5 +15,6 @@
     - static site generators (jekyll, hyde, sphinx)
     - Virtualbox
     - phpbb
+    - refinery <span class="minor"></span>
     - drupal <span class="minor"></span>
     - wordpress <span class="minor"></span>
