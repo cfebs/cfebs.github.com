@@ -3,7 +3,7 @@
 --------------
 
 - PHP
-    - Proprietary framework from XLS
+    - Proprietary MVC framework from Xerox
     - CodeIgniter
     - Slim
     - Lithium <span class="minor"></span>
@@ -15,7 +15,7 @@
 - DB
     - Oracle
     - MySql
-    - Postgres, mongo <span class="minor"></span>
+    - Postgres, Mongo <span class="minor"></span>
 
 - Python <span class="minor"></span>
     - django, pyramid

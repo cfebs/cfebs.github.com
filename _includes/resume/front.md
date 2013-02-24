@@ -3,11 +3,11 @@
 --------------
 
 - HTML/CSS
-    - less
-    - frameworks like blueprint and zurb
+    - less, sass <span class="minor"></span>
+    - frameworks like blueprint and foundation
 
 - Javascript
-    - Prototype
+    - PrototypeJS
     - jQuery
 
 #### Design
@@ -16,4 +16,3 @@
 - Photoshop
 - Inkscape
 - Illustrator
-
