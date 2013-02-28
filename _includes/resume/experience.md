@@ -5,7 +5,7 @@
 
 * **Ruby Development Intern**, MovethatBlock.com, Loudonville, NY, _Fall 2010 - Summer 2011_
     * Learned Ruby on Rails basics, worked on a bug fix/task basis with 3 person team.
-    * Wrote internal guides on how to setup our development environment which got confusing with Sphinx
+    * Wrote internal guides on how to setup our development environment
         * Distributed a light pre-configured Linux VM to other team members
 
 * **College Intern**, Aetna, Hartford, CT, _Summer 2010_
@@ -13,7 +13,7 @@
     * Developed a user customizable javascript world clock widget for Aetna’s internal homepage.
 
 * **Web Development Intern**, Connecticut Distance Learning Consortium, Newington, CT, _Summer 2009_
-    * Maintained their main webpage with HTML, CSS and Cold Fusion alongside a small team.
+    * Maintained their site with Cold Fusion alongside a small team.
 
 * **Graphic Designer**, Datamasons Software, Worked Remotely, _2009_
     * Designed advertisements and banners for a trade show.
