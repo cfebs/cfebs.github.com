@@ -1,121 +1,122 @@
 body {
-    background-image: url('../images/noise.png');
-    color: #dedede;
-    font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url('../images/noise.png');
+  color: #dedede;
+  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* color */
 h1, h2, h3, h4, h5, h6 {
-    color: #f2f2f2;
-    font: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal; }
+  color: #f2f2f2;
+  font: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
 
 strong {
-    color: #f0f0f0;
+  color: #f0f0f0;
 }
 
 em {
-    color: #aaa;
+  color: #aaa;
 }
 
 h1, h2 {
-    letter-spacing: -2px;
+  letter-spacing: -2px;
 }
 h3, h4, {
-    letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 .title {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .topic-content {
 }
 
 .topic h3, .gray {
-    color: #555;
+  color: #555;
 }
 
 a, a:visited {
-    color: #00ffb0;
-    text-decoration: none;
+  color: #00ffb0;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #00c588;
-    text-decoration: none;
+  color: #00c588;
+  text-decoration: none;
 }
 
 
 
 hr.sep {
-    border: solid #333;
-    border-width: 1px 0 0;
-    clear: both;
-    margin: 10px 0 30px;
-    height: 0;
+  border: solid #333;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
 }
 
 hr.greeny {
-    border: solid #00ffb0;
-    border-width: 1px 0 0;
-    clear: both;
-    margin: 10px 0 30px;
-    height: 0;
+  border: solid #00ffb0;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
 }
 
 
 .minor, .techtag {
-    padding: 0px 2px 1px 2px;
-    font-style: normal;
-    font-size: 10px;
-    font-weight: bold;
+  padding: 0px 2px 1px 2px;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .techtag {
-    height: 12px;
-    padding: 1px 4px;
-    float : right;
-    margin-right : 4px;
-    position: relative;
-    top: 4px;
-    line-height: 1;
+  height: 12px;
+  padding: 1px 4px;
+  float : right;
+  margin-right : 4px;
+  position: relative;
+  top: 4px;
+  line-height: 1;
 }
 
 .minor {
-    color: #777;
-    background: #333;
+  color: #777;
+  background: #333;
 }
 
 .links a, .links a:visited {
-    color: white;
+  color: white;
 }
 
 .links i {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .links i:hover {
-    color: #ccc;
+  color: #ccc;
 }
 
 .links {
-    margin-left: 10px;
-    float: right;
+  margin: 0 0.5em 0 0.5em;
+  float: right;
 }
 
 .row div p {
-    font-size: 12px;
-    height: 50px;
+  padding: 1em 0 1em 0;
+  font-size: 12px;
+  height: 8em;
 }
 
 .small-ss {
-    height: 150px;
-    width: 280px;
-    overflow: hidden;
+  height: 150px;
+  width: 280px;
+  overflow: hidden;
 }
 
 .small-ss img {
-    position: relative;
+  position: relative;
 }
-
