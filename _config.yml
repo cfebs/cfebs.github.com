@@ -1,4 +1,4 @@
-exclude: README.md, .gitmodules, .gitignore, Rakefile, Gemfile, Gemfile.lock, deploy, .rvmrc
+exclude: [README.md, .gitmodules, .gitignore, Rakefile, Gemfile, Gemfile.lock, deploy, .rvmrc]
 pygments: true
 permalink: '/:title'
 markdown: kramdown

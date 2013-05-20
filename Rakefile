@@ -7,7 +7,7 @@ namespace :cfebs do
 
   desc "Run the jekyll server"
   task :server do
-    sh 'jekyll --auto --server'
+    sh 'jekyll serve -w'
   end
 
   desc "Clone from production to the compile directory"
