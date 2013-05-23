@@ -4,176 +4,159 @@ title: Resume
 ---
 
 <style type="text/css" media="print">
-    #resume-title, #home-link, hr, hr.sep
-    {
-        display: none;
-    }
-    a, a:visited { color: blue }
-    ul, li { padding: 0; margin: 0; }
-    body { color: #555 }
+  #resume-title, #home-link, hr, hr.sep
+  {
+    display: none;
+  }
+  a, a:visited { color: blue }
+  ul, li { padding: 0; margin: 0; }
+  body { color: #555 }
 </style>
 
 <br>
 
-<div class="twelve columns alpha">
-<h1 id="resume-title">Resume</h1>
-</div>
+<div class="row">
+  <div class="large-8 columns">
+    <h1 id="resume-title">Resume</h1>
+  </div>
 
-<div class="four columns omega" style="text-align: right; padding-top: 20px;">
-    <h4><a id="home-link" href="/">home</a></h4>
+  <div class="large-4 columns" style="text-align: right; padding-top: 20px;">
+    <h4><a href="/"><i id="home-link" class="icon-home"></i></a></h4>
+  </div>
 </div>
 
 <hr>
 
-<div class="sixteen columns">
-    <div class="row">
-        <div class="four columns alpha">
-            <div class="topic">
-                <h3>Info</h3>
-            </div>
-        </div>
-        <div class="twelve columns omega">
-            <div class="row">
-                <div class="alpha six columns">
-                    Collin Lefeber<br>
-                    <a href="mailto:lefeberc@gmail.com">lefeberc@gmail.com</a>
-                    <br>
-                    <em>Enquire for other contact information</em>
-                </div>
-                <div class="omega six columns">
-                    Fields of Interest:
-                    <h5>Web Development/Design</h5>
-                    <h5>Other Development</h5>
-                </div>
-            </div>
-        </div>
+<div class="row">
+  <div class="large-3 columns">
+    <div class="topic">
+      <h3>Info</h3>
     </div>
+  </div>
+
+  <div class="large-5 columns">
+      Collin Lefeber<br>
+      <a href="mailto:lefeberc@gmail.com">lefeberc@gmail.com</a>
+      <br>
+      <em>Enquire for other contact information</em>
+    </div>
+  <div class="large-4 columns">
+    Fields of Interest:
+    <h5>Web Development</h5>
+  </div>
 </div>
 
 <hr class="sep">
 
-<div class="sixteen columns">
-    <div class="row">
-        <div class="four columns alpha">
-            <div class="topic">
-                <h3>Objectives</h3>
-            </div>
-        </div>
-        <div class="twelve columns omega">
-            <div class="topic-content">
-                To constantly expand my knowledge of tools and technologies in order to become more efficient and broaden the perspective of my field.<br>
-                To follow good and established practices relative to the tool, language or task at hand.<br>
-                To introduce clients to new concepts and design ideas to make something that is both practical and innovative.<br>
-                To contribute back to the open source community.<br>
-                To continue to have fun while programming.
-            </div>
-        </div>
+<div class="row">
+  <div class="large-3 columns">
+    <div class="topic">
+      <h3>Objectives</h3>
     </div>
+  </div>
+  <div class="large-9 columns">
+    <ul class="disc">
+      <li>To constantly expand my knowledge of tools and technologies to become more proficient at my craft.</li>
+      <li>To follow good and established practices relative to the tool, language or task at hand.</li>
+      <li>To introduce clients to new concepts and design ideas to make something that is both practical and innovative.</li>
+      <li>To contribute back to the open source community.</li>
+      <li>To continue to have fun with programming and web development.</li>
+    </ul>
+  </div>
 </div>
 
 <hr class="sep">
 
-<div class="sixteen columns">
-    <div class="row">
-        <div class="four columns alpha">
-            <div class="topic">
-                <h3>Education</h3>
-            </div>
-        </div>
-        <div class="twelve columns omega">
-            <div class="topic-content">
-                Siena College, Loudonville, NY<br>
-                B.S. in Computer Science, May 2011<br>
-                <strong>GPA:</strong> 3.31 / 4.00; President’s List Fall 2009<br>
-            </div>
-        </div>
+<div class="row">
+  <div class="large-3 columns">
+    <div class="topic">
+      <h3>Education</h3>
     </div>
+  </div>
+  <div class="large-9 columns">
+    <div class="topic-content">
+<pre>
+Siena College, Loudonville, NY
+B.S. in Computer Science, May 2011
+President’s List Fall 2009
+<pre>
+    </div>
+  </div>
 </div>
 
 <hr class="sep">
 
-<div class="sixteen columns">
-    <div class="row">
-        <div class="four columns alpha">
-            <div class="topic">
-                <h3>Computer Skills</h3>
-            </div>
-        </div>
-        <div class="twelve columns omega">
-            <div class="row" style="margin-bottom: 0px">
-                <div class="six columns alpha">
-                    {% render resume/front.md %}
-                </div>
-                <div class="six columns omega">
-                    {% render resume/back.md %}
-                </div>
-            </div>
-            <div class="row">
-                <div class="twelve columns alpha omega">
-                    {% render resume/other.md %}
-                </div>
-            </div>
-            <em>All items are in approximate order of familiarity</em><br>
-            <em>Items marked with <span class="minor"></span> are items which I am less familiar relative to others </em>
-        </div>
+<div class="row">
+  <div class="large-3 columns">
+    <div class="topic">
+      <h3>Specific Skills</h3>
     </div>
+  </div>
+  <div class="large-9 columns">
+    <div class="row">
+      <div class="large-6 columns">
+        {% render resume/front.md %}
+      </div>
+      <div class="large-6 columns">
+        {% render resume/back.md %}
+      </div>
+    </div>
+
+    <div>
+      {% render resume/other.md %}
+    </div>
+  </div>
 </div>
 
 <hr class="sep">
 
-<div class="sixteen columns">
-    <div class="row">
-        <div class="four columns alpha">
-            <div class="topic">
-                <h3>Professional Experience</h3>
-            </div>
-        </div>
-        <div class="twelve columns omega">
-            <div class="topic-content">
-                {% render resume/experience.md %}
-            </div>
-        </div>
+<div class="row">
+  <div class="large-3 columns">
+    <div class="topic">
+      <h3>Experience</h3>
     </div>
+  </div>
+  <div class="large-9 columns">
+    <div class="topic-content">
+      {% render resume/experience.md %}
+    </div>
+  </div>
 </div>
 
 <hr class="sep">
 
-<div class="sixteen columns">
-    <div class="row">
-        <div class="four columns alpha">
-            <div class="topic">
-                <h3>Relevant Coursework</h3>
-            </div>
-        </div>
-        <div class="twelve columns omega">
-            <div class="topic-content">
-                <p>
-                Intro to Programming, Data Structures, Assembly Language and Computer Architecture, Object Oriented Design
-                And Programming, Data Base Management, Analysis of Algorithms, Web Application Development
-                </p>
-                {% render resume/software-eng.md %}
-            </div>
-        </div>
+<div class="row">
+  <div class="large-3 columns">
+    <div class="topic">
+      <h3>Relevant Coursework</h3>
     </div>
+  </div>
+  <div class="large-9 columns">
+    <div class="topic-content">
+      <p>
+      Intro to Programming, Data Structures, Assembly Language and Computer Architecture, Object Oriented Design
+      And Programming, Data Base Management, Analysis of Algorithms, Web Application Development
+      </p>
+      {% render resume/software-eng.md %}
+    </div>
+  </div>
 </div>
 
 <hr class="sep">
 
-<div class="sixteen columns">
-    <div class="row">
-        <div class="four columns alpha">
-            <div class="topic">
-                <h3>Additional Work</h3>
-            </div>
-        </div>
-        <div class="twelve columns omega">
-            <div class="topic-content">
-                <p>
-                    Visit <a href="http://cfebs.github.com">http://cfebs.github.com</a> for a nice list of my projects, including links to live sites and screenshots.
-                    <br>
-                    Some of my code is here as well: <a href="https://github.com/cfebs">https://github.com/cfebs</a>. My main page should link to the relevant projects
-                </p>
-            </div>
-        </div>
+<div class="row">
+  <div class="large-3 columns">
+    <div class="topic">
+      <h3>Additional Work</h3>
     </div>
+  </div>
+  <div class="large-9 columns">
+    <div class="topic-content">
+      <p>
+      Visit <a href="http://cfebs.github.com">http://cfebs.github.com</a> for a nice list of my projects, including links to live sites and screenshots.
+      <br>
+      Some of my code is here as well: <a href="https://github.com/cfebs">https://github.com/cfebs</a>. My main page should link to the relevant projects
+      </p>
+    </div>
+  </div>
 </div>

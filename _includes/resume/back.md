@@ -1,23 +1,20 @@
-
 #### Back End
 --------------
 
 - PHP
-    - Proprietary MVC framework from Xerox
-    - CodeIgniter
-    - Slim
-    - Lithium <span class="minor"></span>
+  - Proprietary MVC framework from Xerox
+  - CodeIgniter
+  - Slim
+  - Lithium
 
 - Ruby
-    - Sinatra
-    - Rails
+  - Sinatra
+  - Rails
 
 - DB
-    - Oracle
-    - MySql
-    - Postgres, Mongo <span class="minor"></span>
+  - Oracle
+  - MySql
 
-- Python <span class="minor"></span>
-    - django, pyramid
-    - celery
-    - pip, virtualenv
+- Python
+  - celery
+  - pip, virtualenv

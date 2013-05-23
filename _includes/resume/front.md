@@ -1,18 +1,15 @@
-
 #### Front End
---------------
 
-- HTML/CSS
-    - less, sass <span class="minor"></span>
-    - frameworks like blueprint and foundation
+---------
 
-- Javascript
-    - PrototypeJS
-    - jQuery
+- less, sass
+- responsive frameworks (blueprint, foundation)
+- PrototypeJS
+- jQuery
 
 #### Design
+
 -----------
 
 - Photoshop
-- Inkscape
-- Illustrator
+- Inkscape & Illustrator

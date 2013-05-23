@@ -1,8 +1,8 @@
-@light-gray: #dedede;
+@light-gray: #DEDEDE;
 @gray: #555;
-@white: #f2f2f2;
-@darker: #aaa;
-@link-color: #00ffb0;
+@white: #F2F2F2;
+@darker: #AAA;
+@link-color: #AAF67B;
 
 body {
   background-image: url('../images/noise.png');
@@ -49,7 +49,9 @@ a:hover {
   text-decoration: none;
 }
 
-
+h1 {
+  margin-bottom: 0;
+}
 
 hr.sep {
   border: solid #333;
@@ -59,15 +61,6 @@ hr.sep {
   height: 0;
 }
 
-hr.greeny {
-  border: solid #00ffb0;
-  border-width: 1px 0 0;
-  clear: both;
-  margin: 10px 0 30px;
-  height: 0;
-}
-
-
 .minor, .techtag {
   padding: 0px 2px 1px 2px;
   font-style: normal;
@@ -76,13 +69,19 @@ hr.greeny {
 }
 
 .techtag {
-  height: 12px;
-  padding: 1px 4px;
+  padding: 2px 4px;
   float : right;
   margin-right : 4px;
   position: relative;
   top: 4px;
   line-height: 1;
+}
+
+.feature {
+  p {
+    margin-top: 1em;
+    height: 6em;
+  }
 }
 
 .minor {
@@ -107,22 +106,6 @@ hr.greeny {
   float: right;
 }
 
-.row div p {
-  padding: 1em 0 1em 0;
-  font-size: 12px;
-  height: 8em;
-}
-
-.small-ss {
-  height: 150px;
-  width: 280px;
-  overflow: hidden;
-}
-
-.small-ss img {
-  position: relative;
-}
-
 .top-links {
   margin-top: 10px;
 
@@ -139,4 +122,8 @@ hr.greeny {
 
 .footer {
   margin-top: 2em;
+}
+
+ul, ol, dl {
+  list-style-position: inside;
 }
