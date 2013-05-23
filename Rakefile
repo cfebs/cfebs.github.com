@@ -21,7 +21,7 @@ namespace :cfebs do
 
   desc "Copy the _site directory to compile directory and commit with a timestamp"
   task :compile => [:validate_compile_dir] do
-    sh 'jekyll'
+    sh 'jekyll build'
     sh "cp -R _site/* #{@compile_dir}"
     Dir.chdir(@compile_dir)
     sh 'git add .'
