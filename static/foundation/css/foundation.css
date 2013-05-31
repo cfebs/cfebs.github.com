@@ -241,7 +241,7 @@ select {
     margin-right: auto;
     float: none !important; } }
 /* Styles for screens that are atleast 768px; */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 48em) or print {
   .large-1 {
     position: relative;
     width: 8.33333%; }

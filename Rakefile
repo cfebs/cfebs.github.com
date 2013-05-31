@@ -45,6 +45,11 @@ namespace :cfebs do
     if !File.directory? "#{@compile_dir}/.git"
       fail
     end
+
+    # make sure we're up to date
+    Dir.chdir(@compile_dir)
+    sh 'git pull'
+
   end
 
 end
