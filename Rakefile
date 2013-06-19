@@ -29,7 +29,7 @@ namespace :cfebs do
   end
 
   desc "Deploys by pushing the compile directory to prod"
-  task:deploy => [:validate_compile_dir] do
+  task :deploy => [:validate_compile_dir] do
     Dir.chdir(@compile_dir)
     sh 'git pull'
     sh 'git push origin master'
@@ -45,10 +45,6 @@ namespace :cfebs do
     if !File.directory? "#{@compile_dir}/.git"
       fail
     end
-
-    # make sure we're up to date
-    Dir.chdir(@compile_dir)
-    sh 'git pull'
 
   end
 
