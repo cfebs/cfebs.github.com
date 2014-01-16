@@ -87,15 +87,15 @@ title: Resume
   <div class="large-9 columns">
     <div class="row">
       <div class="large-6 columns">
-        {% render resume/front.md %}
+        {% include resume/front.md %}
       </div>
       <div class="large-6 columns">
-        {% render resume/back.md %}
+        {% include resume/back.md %}
       </div>
     </div>
 
     <div>
-      {% render resume/other.md %}
+      {% include resume/other.md %}
     </div>
   </div>
 </div>
@@ -110,7 +110,7 @@ title: Resume
   </div>
   <div class="large-9 columns">
     <div class="topic-content">
-      {% render resume/experience.md %}
+      {% include resume/experience.md %}
     </div>
   </div>
 </div>
@@ -129,7 +129,7 @@ title: Resume
       Intro to Programming, Data Structures, Assembly Language and Computer Architecture, Object Oriented Design
       And Programming, Data Base Management, Analysis of Algorithms, Web Application Development
       </p>
-      {% render resume/software-eng.md %}
+      {% include resume/software-eng.md %}
     </div>
   </div>
 </div>

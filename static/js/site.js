@@ -6,13 +6,13 @@ $(function() {
     var techMap = {
         'jekyll'      : ['000',    'FFF'],
         'codeigniter' : ['FF3E03', 'FFF'],
-        'jquery'      : ['0f67a1', 'FFF'],
-        'prototype'   : ['e4e5e5', '006cff'],
-        'shell'       : ['333',    '30ff14'],
-        'ps'          : ['053b77', '3cccfc'],
-        'rails'       : ['b42738', 'FFF'],
-        'sinatra'     : ['FFF',    'b42738'],
-        'less'        : ['244574', 'fff']
+        'jquery'      : ['0F67A1', 'FFF'],
+        'prototype'   : ['E4E5E5', '006CFF'],
+        'shell'       : ['333',    '30FF14'],
+        'ps'          : ['053B77', '3CCCFC'],
+        'rails'       : ['B42738', 'FFF'],
+        'sinatra'     : ['FFF',    'B42738'],
+        'less'        : ['244574', 'FFF']
     };
 
     $('.tech').each(function(i) {
