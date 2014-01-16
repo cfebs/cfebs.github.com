@@ -87,15 +87,18 @@ title: Resume
   <div class="large-9 columns">
     <div class="row">
       <div class="large-6 columns">
-        {% include resume/front.md %}
+        {% capture md %}{% include resume/front.md %}{% endcapture %}
+        {{ md | markdownify }}
       </div>
       <div class="large-6 columns">
-        {% include resume/back.md %}
+        {% capture md %}{% include resume/back.md %}{% endcapture %}
+        {{ md | markdownify }}
       </div>
     </div>
 
     <div>
-      {% include resume/other.md %}
+      {% capture md %}{% include resume/other.md %}{% endcapture %}
+      {{ md | markdownify }}
     </div>
   </div>
 </div>
@@ -110,7 +113,8 @@ title: Resume
   </div>
   <div class="large-9 columns">
     <div class="topic-content">
-      {% include resume/experience.md %}
+      {% capture md %}{% include resume/experience.md %}{% endcapture %}
+      {{ md | markdownify }}
     </div>
   </div>
 </div>
@@ -129,7 +133,8 @@ title: Resume
       Intro to Programming, Data Structures, Assembly Language and Computer Architecture, Object Oriented Design
       And Programming, Data Base Management, Analysis of Algorithms, Web Application Development
       </p>
-      {% include resume/software-eng.md %}
+      {% capture md %}{% include resume/software-eng.md %}{% endcapture %}
+      {{ md | markdownify }}
     </div>
   </div>
 </div>
