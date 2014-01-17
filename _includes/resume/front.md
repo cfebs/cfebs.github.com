@@ -3,7 +3,7 @@
 ---------
 
 - less, sass
-- responsive frameworks (blueprint, foundation)
+- responsive frameworks (blueprint, foundation, bootstrap)
 - PrototypeJS
 - jQuery
 
@@ -11,5 +11,5 @@
 
 -----------
 
-- Photoshop
+- Photoshop & Gimp
 - Inkscape & Illustrator

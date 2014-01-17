@@ -3,6 +3,8 @@
 * Maintain and build new features for our main E-Discovery application
 * Daily activities span many different areas throughout the stack, from building ajax driven tools with PrototypeJS to Oracle database patches, PL/SQL packages and table design
 * Work on a ~10 person development team along with other departments (QA, DB, Support)
+* Ample Experience in high stress time sensitive situations.
+* Member of our Review Team. Responsible for reviewing the code of other team members before their changes are accepted.
 
 **Ruby Development Intern**, MovethatBlock.com, Loudonville, NY, _Fall 2010 - Summer 2011_
 
