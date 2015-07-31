@@ -1,159 +1,407 @@
----
-layout: default
-title: Resume
----
+<!doctype html>
+<html>
+	<head>
 
-<style type="text/css" media="print">
-  hr, hr.sep {
-    padding: 0; margin: 0;
-    visibility: hidden;
-  }
-  a, a:visited { color: blue }
-  /*ul, li { padding: 0; margin: 0; }*/
-  .row { padding: 1em; }
-</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 
-<div class="row hide-on-print">
-  <div class="large-8 columns">
-    <h1 id="resume-title">Resume</h1>
-  </div>
+	<title>Collin Lefeber</title>
 
-  <div class="large-4 columns" style="text-align: right; padding-top: 20px;">
-    <h4><a href="/"><i id="home-link" class="icon-home"></i></a></h4>
-  </div>
-</div>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 
-<hr>
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
 
-<div class="row">
-  <div class="large-3 columns">
-    <div class="topic">
-      <h3>Info</h3>
-    </div>
-  </div>
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
 
-  <div class="large-9 columns">
-      Collin Lefeber<br>
-      <a href="mailto:lefeberc@gmail.com">lefeberc@gmail.com</a>
-      <br>
-      <em>Enquire for other contact information</em>
-    </div>
-</div>
+	</style>
 
-<hr class="sep">
+	</head>
+	<body>
 
-<div class="row">
-  <div class="large-3 columns">
-    <div class="topic">
-      <h3>Objectives</h3>
-    </div>
-  </div>
-  <div class="large-9 columns">
-    <ul class="disc">
-      <li>To constantly expand my knowledge of tools and technologies to become more proficient at my craft.</li>
-      <li>To follow good and established practices relative to the tool, language or task at hand.</li>
-      <li>To introduce clients to new concepts and design ideas to make something that is both practical and innovative.</li>
-      <li>To contribute back to the open source community.</li>
-      <li>To continue to have fun with programming and web development.</li>
-    </ul>
-  </div>
-</div>
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Collin Lefeber
+					</h1>
+					<h2>
+						Programmer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
 
-<hr class="sep">
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="5b373e3d3e393e29381b3c363a323775383436">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">ask me</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://cfebs.github.io/">http://cfebs.github.io/</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>A hard working human. Always looking to learn and improve.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://github.com/cfebs">cfebs</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<div class="row">
-  <div class="large-3 columns">
-    <div class="topic">
-      <h3>Education</h3>
-    </div>
-  </div>
-  <div class="large-9 columns">
-    <div class="topic-content">
-      Siena College, Loudonville, NY<br>
-      B.S. in Computer Science, May 2011<br>
-      President’s List Fall 2009<br>
-    </div>
-  </div>
-</div>
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Vimeo</span>
+					<span class="date">
+						2014-03-01 —
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.vimeo.com/">http://www.vimeo.com/</a>
+				</div>
+				<div class="position">
+					Application Engineer (Now Senior)
+				</div>
+				<div class="summary">
+					<p>Full stack engineer with focus on Vimeo On Demand</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Part a smaller (~6 people) but efficient On Demand team. Good experience with inter-team planning and suport</li>
+					<li class="bullet">Built numerous features for public facing On Demand users as well as private customer and staff facing tools</li>
+					<li class="bullet">Experience with a highly visible, large scale application and large multi month projects</li>
+					<li class="bullet">Was part of the hiring process for numerous new employees (across deparments), now manage one direct report</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Xerox Litigation Services</span>
+					<span class="date">
+						2011-05-01 — 2014-02-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.xerox-xls.com/">http://www.xerox-xls.com/</a>
+				</div>
+				<div class="position">
+					Application Developer
+				</div>
+				<div class="summary">
+					<p>Full stack, building new features and maintaining an E-Discovery application.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Work on a ~10 person development team along with other departments (QA, DB, Support)</li>
+					<li class="bullet">Daily activities span many different areas throughout the stack, from building ajax driven tools with PrototypeJS to Oracle database patches, PL/SQL packages and table design</li>
+					<li class="bullet">Ample Experience in high stress time sensitive situations.</li>
+					<li class="bullet">Member of our Review Team. Responsible for reviewing the code of other team members before their changes are accepted.</li>
+					<li class="bullet">Part of the hiring process</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
 
-<hr class="sep">
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Yoshi Sushi</span>
+					<span class="date">
+						2010-01-01 —
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://yoshisushialbany.com/">http://yoshisushialbany.com/</a>
+				</div>
+				<div class="position">
+					Developer
+				</div>
+				<div class="summary">
+					<p>Built and still host a Sushi resturaunt homepage</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
 
-<div class="row">
-  <div class="large-3 columns">
-    <div class="topic">
-      <h3>Specific Skills</h3>
-    </div>
-  </div>
-  <div class="large-9 columns">
-    <div class="row">
-      <div class="large-6 columns">
-        {% capture md %}{% include resume/front.md %}{% endcapture %}
-        {{ md | markdownify }}
-      </div>
-      <div class="large-6 columns">
-        {% capture md %}{% include resume/back.md %}{% endcapture %}
-        {{ md | markdownify }}
-      </div>
-    </div>
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Siena College</span>
+					<span class="date">
+						2007-09-01 — 2011-05-01
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelor of Science
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
 
-    <div>
-      {% capture md %}{% include resume/other.md %}{% endcapture %}
-      {{ md | markdownify }}
-    </div>
-  </div>
-</div>
 
-<hr class="sep">
 
-<div class="row">
-  <div class="large-3 columns">
-    <div class="topic">
-      <h3>Experience</h3>
-    </div>
-  </div>
-  <div class="large-9 columns">
-    <div class="topic-content">
-      {% capture md %}{% include resume/experience.md %}{% endcapture %}
-      {{ md | markdownify }}
-    </div>
-  </div>
-</div>
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>SQL</li>
+					<li>PHP</li>
+					<li>Shell/Linux</li>
+					<li>Ruby/Rails</li>
+					<li>Python</li>
+					<li>Small scale server admin</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
 
-<hr class="sep">
 
-<div class="row">
-  <div class="large-3 columns">
-    <div class="topic">
-      <h3>Relevant Coursework</h3>
-    </div>
-  </div>
-  <div class="large-9 columns">
-    <div class="topic-content">
-      <p>
-      Intro to Programming, Data Structures, Assembly Language and Computer Architecture, Object Oriented Design
-      And Programming, Data Base Management, Analysis of Algorithms, Web Application Development
-      </p>
-      {% capture md %}{% include resume/software-eng.md %}{% endcapture %}
-      {{ md | markdownify }}
-    </div>
-  </div>
-</div>
 
-<hr class="sep">
 
-<div class="row">
-  <div class="large-3 columns">
-    <div class="topic">
-      <h3>Additional Work</h3>
-    </div>
-  </div>
-  <div class="large-9 columns">
-    <div class="topic-content">
-      <p>
-      Visit <a href="http://cfebs.github.io">http://cfebs.github.io</a> for a nice list of my projects, including links to live sites and screenshots.
-      <br>
-      Some of my code is here as well: <a href="https://github.com/cfebs">https://github.com/cfebs</a>. My main page should link to the relevant projects
-      </p>
-    </div>
-  </div>
-</div>
+	</div>
+
+	</body>
+</html>
