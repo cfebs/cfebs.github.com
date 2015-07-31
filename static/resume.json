@@ -1,0 +1,78 @@
+{
+  "basics": {
+    "name": "Collin Lefeber",
+    "label": "Programmer",
+    "email": "lefeberc@gmail.com",
+    "phone": "ask me",
+    "website": "http://cfebs.github.io/",
+    "summary": "A hard working human. Always looking to learn and improve.",
+    "profiles": [{
+      "network": "Github",
+      "username": "cfebs",
+      "url": "http://github.com/cfebs"
+    }]
+  },
+  "work": [
+  {
+    "company": "Vimeo",
+    "position": "Application Engineer (Now Senior)",
+    "website": "http://www.vimeo.com/",
+    "startDate": "2014-03-01",
+    "summary": "Full stack engineer with focus on Vimeo On Demand",
+    "highlights": [
+        "Part a smaller (~6 people) but efficient On Demand team. Good experience with inter-team planning and suport",
+        "Built numerous features for public facing On Demand users as well as private customer and staff facing tools",
+        "Experience with a highly visible, large scale application and large multi month projects",
+        "Was part of the hiring process for numerous new employees (across deparments), now manage one direct report"
+    ]
+  },
+  {
+    "company": "Xerox Litigation Services",
+    "position": "Application Developer",
+    "website": "http://www.xerox-xls.com/",
+    "startDate": "2011-05-01",
+    "endDate": "2014-02-01",
+    "summary": "Full stack, building new features and maintaining an E-Discovery application.",
+    "highlights": [
+        "Work on a ~10 person development team along with other departments (QA, DB, Support)",
+        "Daily activities span many different areas throughout the stack, from building ajax driven tools with PrototypeJS to Oracle database patches, PL/SQL packages and table design",
+        "Ample Experience in high stress time sensitive situations.",
+        "Member of our Review Team. Responsible for reviewing the code of other team members before their changes are accepted.",
+        "Part of the hiring process"
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Yoshi Sushi",
+    "position": "Developer",
+    "website": "http://yoshisushialbany.com/",
+    "startDate": "2010-01-01",
+    "summary": "Built and still host a Sushi resturaunt homepage",
+    "highlights": [
+    ]
+  }],
+  "education": [{
+    "institution": "Siena College",
+    "area": "Computer Science",
+    "studyType": "Bachelor of Science",
+    "startDate": "2007-09-01",
+    "endDate": "2011-05-01",
+    "gpa": ""
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Senior",
+    "keywords": [
+      "HTML",
+      "CSS (+ frameworks)",
+      "Javascript (+ frameworks)",
+      "SQL (mysql, oracle)",
+      "PHP (+ frameworks)",
+      "Shell/Linux",
+      "Ruby/Rails",
+      "Python",
+      "Photoshop",
+      "Illustrator",
+      "Small scale personal server admin for friends and family"
+    ]
+  }]
+}
