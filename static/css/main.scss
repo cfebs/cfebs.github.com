@@ -1,0 +1,96 @@
+---
+---
+
+// http://coolors.co/app/f8ffe5-06d6a0-1b9aaa-ef476f-ffc43d
+$color1: #f8ffe5; //rgba(248, 255, 229, 100)
+$color2: #06d6a0; //rgba(6, 214, 160, 100)
+$color3: #1b9aaa; //rgba(27, 154, 170, 100)
+$color4: #ef476f; //rgba(239, 71, 111, 100)
+$color5: #ffc43d; //rgba(255, 196, 61, 100)
+
+$bgcolor: $color3;
+$fgcolor: rgba($color1, 0.9);
+
+$font_family: Helvetica, Roboto, sans-serif;
+
+body {
+  background: $bgcolor;
+  color: $fgcolor;
+  font-family: $font_family;
+}
+
+.weight_normal {
+  font-weight: 100;
+}
+
+$welcome_bg: $color4;
+$about_bg: lighten($welcome_bg, 8%);
+
+$block_space: 1.5rem;
+
+// .smell-big_block
+// .smell-list_block
+// .smell-text_block
+
+br {
+  height: 0;
+}
+
+a {
+  color: $color1;
+  font-weight: bold;
+
+  text-decoration: none;
+
+  &:visited {
+  }
+}
+
+.smell-big_block {
+  display: inline-block;
+
+  background: $welcome_bg;
+
+  .title {
+    font-size: 4rem;
+
+    letter-spacing: -0.025em;
+    padding: 0.15em 0.4em;
+    margin: 0;
+  }
+
+}
+
+
+.smell-welcome {
+  margin: $block_space*2 0 $block_space 0;
+}
+
+.smell-list_block {
+  display: inline-block;
+  margin: $block_space 0;
+
+  background: $about_bg;
+  color: $fgcolor;
+
+  font-size: 2rem;
+  letter-spacing: -0.025em;
+  padding: 0.15em 1em;
+
+  & + & {
+    margin-left: 0.5rem;
+  }
+}
+
+.smell-text_block {
+  font-size: 1.5rem;
+  margin: $block_space 0;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  max-width: 800px;
+  background: lighten($bgcolor, 8%);
+
+  p {
+    padding: 0;
+  }
+}
